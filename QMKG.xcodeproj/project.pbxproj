@@ -13,6 +13,14 @@
 		933232981F1C8E2A00103461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933232961F1C8E2A00103461 /* Main.storyboard */; };
 		9332329A1F1C8E2A00103461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933232991F1C8E2A00103461 /* Assets.xcassets */; };
 		9332329D1F1C8E2A00103461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9332329B1F1C8E2A00103461 /* LaunchScreen.storyboard */; };
+		933232AC1F1C8FC600103461 /* QMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232AB1F1C8FC600103461 /* QMNavigationViewController.m */; };
+		933232AF1F1CA59C00103461 /* QMToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232AE1F1CA59C00103461 /* QMToolbar.m */; };
+		933232B21F1CAC6900103461 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232B11F1CAC6900103461 /* FindViewController.m */; };
+		933232B51F1CAC7300103461 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232B41F1CAC7300103461 /* MessageViewController.m */; };
+		933232B81F1CAC7B00103461 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232B71F1CAC7B00103461 /* MyInfoViewController.m */; };
+		933232BB1F1CAC8300103461 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232BA1F1CAC8300103461 /* KViewController.m */; };
+		933232BF1F1E08FC00103461 /* MainConstomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232BE1F1E08FC00103461 /* MainConstomTableViewCell.m */; };
+		933232C41F208E1D00103461 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933232C31F208E1D00103461 /* BaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		933232991F1C8E2A00103461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9332329C1F1C8E2A00103461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9332329E1F1C8E2A00103461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933232AA1F1C8FC600103461 /* QMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMNavigationViewController.h; sourceTree = "<group>"; };
+		933232AB1F1C8FC600103461 /* QMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMNavigationViewController.m; sourceTree = "<group>"; };
+		933232AD1F1CA59C00103461 /* QMToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMToolbar.h; sourceTree = "<group>"; };
+		933232AE1F1CA59C00103461 /* QMToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMToolbar.m; sourceTree = "<group>"; };
+		933232B01F1CAC6900103461 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		933232B11F1CAC6900103461 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		933232B31F1CAC7300103461 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		933232B41F1CAC7300103461 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		933232B61F1CAC7B00103461 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		933232B71F1CAC7B00103461 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		933232B91F1CAC8300103461 /* KViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
+		933232BA1F1CAC8300103461 /* KViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		933232BD1F1E08FC00103461 /* MainConstomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainConstomTableViewCell.h; sourceTree = "<group>"; };
+		933232BE1F1E08FC00103461 /* MainConstomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainConstomTableViewCell.m; sourceTree = "<group>"; };
+		933232C21F208E1D00103461 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		933232C31F208E1D00103461 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		933232C51F2097EB00103461 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +83,14 @@
 		9332328C1F1C8E2A00103461 /* QMKG */ = {
 			isa = PBXGroup;
 			children = (
+				933232A81F1C8EC200103461 /* K */,
+				933232A71F1C8EA200103461 /* MyInfo */,
+				933232A61F1C8E9600103461 /* Message */,
+				933232A51F1C8E8B00103461 /* Find */,
+				933232A41F1C8E8100103461 /* Mian */,
 				933232901F1C8E2A00103461 /* AppDelegate.h */,
 				933232911F1C8E2A00103461 /* AppDelegate.m */,
-				933232931F1C8E2A00103461 /* ViewController.h */,
-				933232941F1C8E2A00103461 /* ViewController.m */,
+				933232C51F2097EB00103461 /* PrefixHeader.pch */,
 				933232961F1C8E2A00103461 /* Main.storyboard */,
 				933232991F1C8E2A00103461 /* Assets.xcassets */,
 				9332329B1F1C8E2A00103461 /* LaunchScreen.storyboard */,
@@ -77,6 +106,75 @@
 				9332328E1F1C8E2A00103461 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		933232A41F1C8E8100103461 /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+				933232BC1F1CC0AA00103461 /* Controllers */,
+				933232A91F1C8F6A00103461 /* Views */,
+				933232C21F208E1D00103461 /* BaseNavigationController.h */,
+				933232C31F208E1D00103461 /* BaseNavigationController.m */,
+			);
+			name = Mian;
+			sourceTree = "<group>";
+		};
+		933232A51F1C8E8B00103461 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				933232B01F1CAC6900103461 /* FindViewController.h */,
+				933232B11F1CAC6900103461 /* FindViewController.m */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		933232A61F1C8E9600103461 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				933232B31F1CAC7300103461 /* MessageViewController.h */,
+				933232B41F1CAC7300103461 /* MessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		933232A71F1C8EA200103461 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				933232B61F1CAC7B00103461 /* MyInfoViewController.h */,
+				933232B71F1CAC7B00103461 /* MyInfoViewController.m */,
+			);
+			name = MyInfo;
+			sourceTree = "<group>";
+		};
+		933232A81F1C8EC200103461 /* K */ = {
+			isa = PBXGroup;
+			children = (
+				933232B91F1CAC8300103461 /* KViewController.h */,
+				933232BA1F1CAC8300103461 /* KViewController.m */,
+			);
+			name = K;
+			sourceTree = "<group>";
+		};
+		933232A91F1C8F6A00103461 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				933232AD1F1CA59C00103461 /* QMToolbar.h */,
+				933232AE1F1CA59C00103461 /* QMToolbar.m */,
+				933232BD1F1E08FC00103461 /* MainConstomTableViewCell.h */,
+				933232BE1F1E08FC00103461 /* MainConstomTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		933232BC1F1CC0AA00103461 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				933232AA1F1C8FC600103461 /* QMNavigationViewController.h */,
+				933232AB1F1C8FC600103461 /* QMNavigationViewController.m */,
+				933232931F1C8E2A00103461 /* ViewController.h */,
+				933232941F1C8E2A00103461 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +249,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933232AC1F1C8FC600103461 /* QMNavigationViewController.m in Sources */,
+				933232C41F208E1D00103461 /* BaseNavigationController.m in Sources */,
+				933232AF1F1CA59C00103461 /* QMToolbar.m in Sources */,
+				933232BF1F1E08FC00103461 /* MainConstomTableViewCell.m in Sources */,
+				933232B81F1CAC7B00103461 /* MyInfoViewController.m in Sources */,
 				933232951F1C8E2A00103461 /* ViewController.m in Sources */,
+				933232B21F1CAC6900103461 /* FindViewController.m in Sources */,
 				933232921F1C8E2A00103461 /* AppDelegate.m in Sources */,
+				933232BB1F1CAC8300103461 /* KViewController.m in Sources */,
 				9332328F1F1C8E2A00103461 /* main.m in Sources */,
+				933232B51F1CAC7300103461 /* MessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +380,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QMKG/PrefixHeader.pch";
 				INFOPLIST_FILE = QMKG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.QMKG;
@@ -286,6 +394,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KN6539LSM;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QMKG/PrefixHeader.pch";
 				INFOPLIST_FILE = QMKG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wangtao.QMKG;
@@ -312,6 +422,7 @@
 				933232A31F1C8E2A00103461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

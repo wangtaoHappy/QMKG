@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "FindViewController.h"
+#import "MessageViewController.h"
+#import "MyInfoViewController.h"
+#import "KViewController.h"
+#import "QMNavigationViewController.h"
+#import "BaseNavigationController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +24,41 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UITabBarController *tabbarController = [[UITabBarController alloc] init];
+    //设置点击item颜色
+    tabbarController.tabBar.tintColor = [UIColor redColor];
+    //设置tabBar颜色，使得不透视颜色
+    tabbarController.tabBar.barTintColor = [UIColor whiteColor];
+    self.window.rootViewController = tabbarController;
+    
+    ViewController *VC1 = [[ViewController alloc] init];
+    VC1.title = @"首页";
+    VC1.view.backgroundColor = [UIColor whiteColor];
+    QMNavigationViewController *Nav1 = [[QMNavigationViewController alloc] initWithRootViewController:VC1];
+    
+    FindViewController *VC2 = [[FindViewController alloc] init];
+    VC2.title = @"发现";
+    BaseNavigationController *Nav2 = [[BaseNavigationController alloc] initWithRootViewController:VC2];
+
+    
+    KViewController *VC3 = [[KViewController alloc] init];
+    VC3.title = @"简介";
+    BaseNavigationController *Nav3 = [[BaseNavigationController alloc] initWithRootViewController:VC3];
+    
+    MessageViewController *VC4 = [[MessageViewController alloc] init];
+    VC4.title = @"消息";
+    BaseNavigationController *Nav4 = [[BaseNavigationController alloc] initWithRootViewController:VC4];
+    
+    MyInfoViewController *VC5 = [[MyInfoViewController alloc] init];
+    VC5.title = @"我的";
+    BaseNavigationController *Nav5 = [[BaseNavigationController alloc] initWithRootViewController:VC5];
+    
+    tabbarController.viewControllers = @[Nav1,Nav2,Nav3,Nav4,Nav5];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
