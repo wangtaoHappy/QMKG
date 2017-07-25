@@ -12,8 +12,8 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#define QM_HEIGHT CGRectGetHeight(self.view.bounds)
-#define QM_WIDTH  CGRectGetWidth(self.view.bounds)
+#define QM_HEIGHT CGRectGetHeight([[UIScreen mainScreen] bounds])
+#define QM_WIDTH  CGRectGetWidth([[UIScreen mainScreen] bounds])
 
 #define RANDOM rand()%255
 #define RANDOM_COLOR [UIColor colorWithRed:RANDOM/255.0 green:RANDOM/255.0 blue:RANDOM/255.0 alpha:1]

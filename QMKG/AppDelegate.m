@@ -32,6 +32,13 @@
     tabbarController.tabBar.tintColor = [UIColor redColor];
     //设置tabBar颜色，使得不透视颜色
     tabbarController.tabBar.barTintColor = [UIColor whiteColor];
+    [tabbarController.tabBar addSubview:({
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = CGRectMake(QM_WIDTH/2 - 20, 5, 40, 40);
+        button.backgroundColor = RANDOM_COLOR;
+        [button addTarget:self action:@selector(KbuttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        button;
+    })];
     self.window.rootViewController = tabbarController;
     
     ViewController *VC1 = [[ViewController alloc] init];
@@ -45,7 +52,7 @@
 
     
     KViewController *VC3 = [[KViewController alloc] init];
-    VC3.title = @"简介";
+
     BaseNavigationController *Nav3 = [[BaseNavigationController alloc] initWithRootViewController:VC3];
     
     MessageViewController *VC4 = [[MessageViewController alloc] init];
@@ -57,11 +64,13 @@
     BaseNavigationController *Nav5 = [[BaseNavigationController alloc] initWithRootViewController:VC5];
     
     tabbarController.viewControllers = @[Nav1,Nav2,Nav3,Nav4,Nav5];
-    
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+- (void)KbuttonClicked:(UIButton *)sender {
+
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

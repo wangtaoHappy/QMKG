@@ -17,12 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [self.navigationController.navigationBar addSubview:({
+//    
+//        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+//        view.backgroundColor = [UIColor cyanColor];
+//        view;
+//    })];
+//    
+//    [self.tabBarController.tabBar addSubview:];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 /*
 #pragma mark - Navigation
